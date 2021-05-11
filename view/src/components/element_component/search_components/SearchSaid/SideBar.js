@@ -4,14 +4,22 @@ import {SideBarDataMen, SideBarDataColor} from './SideBarData'
 
 const SideBar = () => {
     var [check, setcheck] = useState(true)
+    var [data, setData] = useState(SideBarDataMen)
+
+    const onSearch = (id) =>{
+        setData(
+            data.map((el) => el.id === id ? { ...el, seartch: !el.seartch } : el
+        ))
+        
+    }
     return (
         <div className='side-bar-container'>
             <div className="categorie">
                 <h3 className="categori-title">Catégorie</h3>
                 <ul className="categorie-list">
-                    {SideBarDataMen.map((el, index) => {
-                        return <li key={index} className='categorie-item' >
-                            <i className={el.categorieIcon} onClick={()=> setcheck(!check)} style={{color:`${check ?"green":""}`}}  ></i>
+                    {data.map((el) => {
+                        return <li key={el.id} className='categorie-item' >
+                            <i className={el.categorieIcon} onClick={()=>onSearch(el.id)} style={{color:`${el.seartch ?"green":""}`}}  ></i>
                             <h5 className='tit' >{el.categorieName} </h5>
                         </li>
                     })}

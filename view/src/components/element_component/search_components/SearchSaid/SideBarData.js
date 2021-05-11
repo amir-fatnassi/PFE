@@ -1,27 +1,39 @@
 export const SideBarDataMen = [
     {
+        id:1,
         categorieName: 'Robes',
-        categorieIcon: "fas fa-check-circle" 
+        categorieIcon: "fas fa-check-circle",
+        seartch:false 
     },
     {
+        id:2,
         categorieName: 'Blouses',
-        categorieIcon: "fas fa-check-circle" 
+        categorieIcon: "fas fa-check-circle",
+        seartch:false 
     },
     {
+        id:3,
         categorieName: 'T-Shirt',
-        categorieIcon: "fas fa-check-circle"
+        categorieIcon: "fas fa-check-circle",
+        seartch:false
     },
     {
+        id:4,
         categorieName: 'Denim',
-        categorieIcon: "fas fa-check-circle"
+        categorieIcon: "fas fa-check-circle",
+        seartch:false
     },
     {
+        id:5,
         categorieName: 'Bas',
-        categorieIcon: "fas fa-check-circle"
+        categorieIcon: "fas fa-check-circle",
+        seartch:false
     },
     {
+        id:6,
         categorieName: 'Ensembles',
-        categorieIcon: "fas fa-check-circle"
+        categorieIcon: "fas fa-check-circle",
+        seartch:false
     }
 ]
 

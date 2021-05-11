@@ -1,19 +1,18 @@
 import HeroSection from '../../components/element_component/HeroSection/HeroSection'
 import SimpleSlid from '../element_component/slider/simpleSlid/SimpleSlid'
 import MultiSlid from '../element_component/slider/multiSlid/MultiSlid';
-// import Title from '../element-component/title/Title';
-// import m1 from './m1.jpg'
+import slid1 from '../image/slid-2.jpg'
 const Femme = () => {
     return (
         <>
-            <HeroSection/>
+            <HeroSection 
+                image={slid1}
+                mTitle='Shop jewellery handmade in Sydney' 
+                title='vaconcy mode'
+            />
             <SimpleSlid/>
             <HeroSection/>
             <MultiSlid/>
-        {/*   <SouHero/>
-            <SliderComp/>
-            <Title/>
-            <HeroSection img={m1} left='1'/> */}
         </>
     )  
 }

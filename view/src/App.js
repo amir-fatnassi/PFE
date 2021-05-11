@@ -5,8 +5,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Homme from './components/page/Homme';
 import Femme from './components/page/Femme';
 import Search from './components/page/Search';
+import React from 'react';
 
 const App = () => {
+  
   return (
     <Router className="App">
       <NavBar/>

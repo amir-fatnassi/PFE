@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+// import HeroSection from '../../HeroSection/HeroSection'
 import slid1 from './slid1.jpg'
 import slid2 from './slid2.jpg'
 import './SimpleSlid.css'
