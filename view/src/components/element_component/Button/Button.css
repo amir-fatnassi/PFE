@@ -9,7 +9,8 @@
     cursor: pointer;
 }
 .btn--primary {
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    background-color: #4E4E4E;
     color: #242424;
     border: 1px solid var(--primary);
 }
@@ -28,8 +29,8 @@
 }
 
 .btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
+    padding: 16px 32px;
+    font-size: 26px;
 }
 
 .btn--large:hover,

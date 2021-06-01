@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Homme from './components/page/Homme';
 import Femme from './components/page/Femme';
 import Search from './components/page/Search';
+import Product from './components/page/Product';
 import React from 'react';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path='/' component={Femme} />
         <Route exact path='/homme' component={Homme} />
         <Route exact path='/Search' component={Search} />
+        <Route exact path='/product' component={Product} />
       </Switch>
       <Footer/>
     </Router>
